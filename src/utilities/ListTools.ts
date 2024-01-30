@@ -99,7 +99,7 @@ export const allTools: Tool[] = [
   {
     title: "Coolors",
     description: "Create the perfect palette or get inspired by thousands of beautiful color schemes.",
-    icon: "../src/assets/img/colors.svg",
+    icon: "../../public/colors.svg",
     imgtitle: "coolors",
     href: 'https://coolors.co/',
     tooltype: 'colors'
