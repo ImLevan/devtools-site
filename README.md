@@ -38,6 +38,8 @@ You will need:
 - [Node.js 16+ (recommended 18 LTS)](https://nodejs.org/en/).
 - [Git](https://git-scm.com/).
 
+0. It is recommended to work by making a branch from "dev", and then make the PR towards dev
+
 1. [Fork](https://github.com/ImLevan/devtools-site/fork) this repository and clone it locally:
 
 ```bash
