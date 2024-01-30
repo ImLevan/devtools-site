@@ -1,0 +1,23 @@
+---
+import Card from "./Card.astro";
+import { allTools } from '../utilities/ListTools';
+import type { Tool } from '../utilities/ListTools';
+
+const { page } = Astro.props;
+
+// Filtra la lista de herramientas según el tipo de página
+allTools.sort((a, b) => a.title.localeCompare(b.title));
+const filteredTools = page === 'index' ? allTools : allTools.filter(tool => tool.tooltype === page);
+---
+
+<div class="container mx-auto px-6 pt-4 xl:px-4">
+    <div class="flex items-center justify-end mb-4">
+        <div
+            class="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3"
+        >
+            {filteredTools.map((tool: Tool) => (
+                <Card tool={tool}/>
+            ))}    
+        </div>
+    </div>
+</div>

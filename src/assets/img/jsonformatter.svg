@@ -1,0 +1,5 @@
+<svg role="img" aria-label="[title + description]" width="180" height="25">
+<title>JSON Formatter &amp; Validator</title>
+<desc>Format and validate JSON data so that it can easily be read by human beings.</desc>
+<use xlink:href="#logo-jsonformatter"></use>
+</svg>

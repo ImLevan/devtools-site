@@ -1,0 +1,13 @@
+---
+import ToolsContainer from "./ToolsContainer.astro";
+import { fade } from 'astro:transitions';
+
+const { page } = Astro.props;
+
+---
+
+<div transition:animate={fade({ duration: '0.2s' })} class="ml-0 md:ml-56 pb-6">
+    <div>
+        <ToolsContainer page={page}/>
+    </div>
+</div>

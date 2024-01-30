@@ -1,0 +1,37 @@
+---
+const { elements } = Astro.props;
+
+const placeholderText = elements === 1 ? 'tool...' : 'tools...'
+
+---
+
+<div class="sticky top-[63px] z-50">
+    <div class="relative w-full text-[16px]">
+        <div
+            class="absolute inset-y-0 left-0 flex items-center pl-3 text-neutral-500"
+        >
+            <div class="pointer-events-none">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide-icon lucide lucide-search"
+                    ><circle cx="11" cy="11" r="8"></circle><path
+                        d="m21 21-4.3-4.3"></path></svg
+                >
+            </div>
+        </div>
+        <input
+            type="text"
+            placeholder=`Search ${elements} ${placeholderText}`
+            autocomplete="off"
+            class="w-full border-b border-neutral-800 bg-gray-900  p-3 px-11 placeholder-neutral-500 focus:outline-none focus:ring-2 focus:ring-neutral-600 "
+        />
+    </div>
+</div>

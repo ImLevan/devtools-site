@@ -1,0 +1,20 @@
+---
+import { allCategories } from "../utilities/Categories";
+
+interface Props {
+	currentRoute: string;
+}
+
+const { currentRoute } = Astro.props;
+
+---
+
+<aside class="z-50 w-full overflow-y-auto overflow-x-hidden md:fixed md:left-0 md:h-full md:w-56 md:pb-10 bg-gray-900 backdrop-blur-md opacity-95 border-r border-neutral-800">
+    <div class="md:px-6 md:py-6">
+        <nav class="flex items-center space-x-1 overflow-y-auto md:mb-3 md:flex-col md:space-x-0 md:space-y-1 md:overflow-y-visible px-5 md:px-0 pb-2 pt-3 md:pt-0">
+            {allCategories.map(category => (
+                <a href={category.href} class={`flex w-full items-center rounded-md p-2 transition-none duration-100 hover:bg-neutral-700/40 hover:text-white ${currentRoute === category.href ? 'bg-neutral-700/30 text-white font-medium' : 'text-neutral-400'}`}>{category.label}</a>
+            ))}            
+        </nav>
+    </div>
+</aside>
