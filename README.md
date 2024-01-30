@@ -51,7 +51,7 @@ git clone git@github.com:your_username/devtools-site.git
 npm install
 ```
 
-3. Go to the [**`src/assets/img`**](https://github.com/ImLevan/devtools-site/blob/master/src/assets/img) folder and add your `.svg` logo.
+3. Go to the [**`public/`**](https://github.com/ImLevan/devtools-site/blob/master/public/) folder and add your `.svg` logo.
 
 4. Go to the [**`src/utilities/ListTools.ts`**](https://github.com/ImLevan/devtools-site/blob/master/src/utilities/ListTools.ts) and add the information about the tool, following the structure:
 
@@ -60,7 +60,7 @@ npm install
 {
     title: "ILoveImg",
     description: "Online tool for image editing, converter, changing formats, image compressor.",
-    icon: "../src/assets/img/iloveimg.svg",
+    icon: "/iloveimg.svg",
     imgtitle: "iloveimg",
     href: 'https://www.iloveimg.com/es',
     tooltype: 'images'
