@@ -1,12 +1,12 @@
 <div align="center">
-<a href="https://svgl.app">
+<a href="https://devtools-site.netlify.app/https://svgl.app">
 <img src="src/assets/img/readme.png">
 </a>
 <p></p>
 </div>
 
 <div align="center">
-    <a href="#" target="_blank">
+    <a href="https://devtools-site.netlify.app/" target="_blank">
         Discover
     </a>
     </a>
