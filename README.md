@@ -38,7 +38,7 @@ You will need:
 - [Node.js 16+ (recommended 18 LTS)](https://nodejs.org/en/).
 - [Git](https://git-scm.com/).
 
-1. [Fork](https://github.com/imlevan/devtools-site/fork) this repository and clone it locally:
+1. [Fork](https://github.com/ImLevan/devtools-site/fork) this repository and clone it locally:
 
 ```bash
 git clone git@github.com:your_username/devtools-site.git
@@ -51,9 +51,9 @@ git clone git@github.com:your_username/devtools-site.git
 npm install
 ```
 
-3. Go to the [**`src/assets/img`**](https://github.com/imlevan/devtools-site/blob/master/src/assets/img) folder and add your `.svg` logo.
+3. Go to the [**`src/assets/img`**](https://github.com/ImLevan/devtools-site/blob/master/src/assets/img) folder and add your `.svg` logo.
 
-4. Go to the [**`src/utilities/ListTools.ts`**](https://github.com/pheralb/svgl/blob/master/src/utilities/ListTools.ts) and add the information about the tool, following the structure:
+4. Go to the [**`src/utilities/ListTools.ts`**](https://github.com/ImLevan/devtools-site/blob/master/src/utilities/ListTools.ts) and add the information about the tool, following the structure:
 
 
 ```json
@@ -69,7 +69,7 @@ npm install
 
 > [!NOTE]
 >
-> - The categories is here: [`src/pages/categories`](https://github.com/imlevan/devtools-site/blob/master/src/pages/categories). You can add a new category if you need it.
+> - The categories is here: [`src/pages/categories`](https://github.com/ImLevan/devtools-site/blob/master/src/pages/categories). You can add a new category if you need it.
 
 - You must create a new file with the name of the category, "example.astro".
 
@@ -95,7 +95,7 @@ import MainContent from '../../components/MainContent.astro';
 >
 > - The "page" parameter of MainContent must be the same as what is set in "tooltype" when the tool is created
 
-- Then, you must go to [`src/utilities/Categories.ts`](https://github.com/imlevan/devtools-site/blob/master/src/utilities/Categories.ts), and add a new categorie into the list, it should look like this:
+- Then, you must go to [`src/utilities/Categories.ts`](https://github.com/ImLevan/devtools-site/blob/master/src/utilities/Categories.ts), and add a new categorie into the list, it should look like this:
 ```ts
 export const allCategories: Category[] = [
     {
@@ -116,4 +116,4 @@ And create a pull request with the tool 🚀.
 
 ## 🔑 License
 
-- [MIT](https://github.com/imlevan/devtools-site/blob/master/LICENSE).
+- [MIT](https://github.com/ImLevan/devtools-site/blob/master/LICENSE).
