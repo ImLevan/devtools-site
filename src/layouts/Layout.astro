@@ -10,11 +10,25 @@ const { title } = Astro.props;
 ---
 
 <!doctype html>
-<html lang="es">
+<html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="description" content="Astro description" />
+		<meta name="description" content="Library of pages and tools made to help the efficiency and productivity of developers' work." />
 		<meta name="viewport" content="width=device-width" />
+		<meta name="author" content="ImLevan" />
+		<!--OG-->
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="devtoolskit" />
+		<meta property="og:description" content="Library of pages and tools made to help the efficiency and productivity of developers' work." />
+		<meta property="og:url" content="https://devtoolskit.netlify.app/" />
+		<meta property="og:image" content="https://devtoolskit.netlify.app/src/assets/img/readme.png" />
+		<!--Twitter-->
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:title" content="devtoolskit" />
+		<meta property="twitter:description" content="Library of pages and tools made to help the efficiency and productivity of developers' work." />
+		<meta property="creator" content="ImLevan" />
+		<meta property="twitter:image" content="https://devtoolskit.netlify.app/src/assets/img/readme.png" />
+		
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
 		<ViewTransitions />
