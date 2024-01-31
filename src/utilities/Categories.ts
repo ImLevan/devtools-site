@@ -8,6 +8,9 @@ export const allCategories: Category[] = [
         href: '/', label: 'alls'
     },
     {
+        href: '/categories/apis', label: 'apis'
+    },
+    {
         href: '/categories/images', label: 'images'
     },
     {
@@ -33,6 +36,15 @@ export const allCategories: Category[] = [
     },
     {
         href: '/categories/fonts', label: 'fonts'
+    },
+    {
+        href: '/categories/code-editors', label: 'code editors'
+    },
+    {
+        href: '/categories/ides', label: 'ides'
+    },
+    {
+        href: '/categories/databases', label: 'databases'
     }
 
     // add categories here

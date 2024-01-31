@@ -239,6 +239,94 @@ export const allTools: Tool[] = [
     imgtitle: "render",
     href: 'https://render.com/',
     tooltype: 'deploys'
+  },
+  {
+    title: "Visual Studio Code",
+    description: "Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications. Free. Built on open source. Runs everywhere.",
+    icon: "/vscode.svg",
+    imgtitle: "vscode",
+    href: 'https://code.visualstudio.com/',
+    tooltype: 'code-editors'
+  },
+  {
+    title: "Sublime Text",
+    description: "Sublime Text is a sophisticated text editor for code, markup and prose. You'll love the slick user interface, extraordinary features and amazing performance.",
+    icon: "/sublime.svg",
+    imgtitle: "sublimetext",
+    href: 'https://www.sublimetext.com/',
+    tooltype: 'code-editors'
+  },
+  {
+    title: "Notepad++",
+    description: "Notepad++ is a free source code editor and Notepad replacement that supports several languages. Running in the MS Windows environment, its use is governed by GNU General Public License.",
+    icon: "/notepad.svg",
+    imgtitle: "notepad",
+    href: 'https://notepad-plus-plus.org/',
+    tooltype: 'code-editors'
+  },
+  {
+    title: "IntelliJ IDEA",
+    description: "IntelliJ IDEA is undoubtedly the top-choice IDE for software developers. It makes Java and Kotlin development a more productive and enjoyable experience.",
+    icon: "/intellij.svg",
+    imgtitle: "intellij",
+    href: 'https://www.jetbrains.com/idea/',
+    tooltype: 'ides'
+  },
+  {
+    title: "Android Studio",
+    description: "Android Studio and SDK Tools — Get the official Integrated Development Environment (IDE) for Android app development.",
+    icon: "/androidstudio.svg",
+    imgtitle: "androidstudio",
+    href: 'https://developer.android.com/studio?hl=es-419',
+    tooltype: 'ides'
+  },
+  {
+    title: "Eclipse IDE",
+    description: "Eclipse is a software platform composed of a set of cross-platform open source programming tools for developing what the project calls 'Rich Client Applications'.",
+    icon: "/eclipse.svg",
+    imgtitle: "eclipse",
+    href: 'https://eclipseide.org/',
+    tooltype: 'ides'
+  },
+  {
+    title: "Apache NetBeans",
+    description: "NetBeans is a free integrated development environment, made primarily for the Java programming language.",
+    icon: "/netbeans.svg",
+    imgtitle: "netbeans",
+    href: 'https://netbeans.apache.org/front/main/',
+    tooltype: 'ides'
+  },
+  {
+    title: "Postman",
+    description: "Postman is an API platform for building and using APIs. Postman simplifies each step of the API lifecycle and streamlines collaboration so you can create better APIs—faster.",
+    icon: "/postman.svg",
+    imgtitle: "postman",
+    href: 'https://www.postman.com/',
+    tooltype: 'apis'
+  },
+  {
+    title: "Insomnia REST",
+    description: "Leading Open Source API Development Platform for HTTP, REST, GraphQL, gRPC, SOAP, and WebSockets.",
+    icon: "/insomnia.svg",
+    imgtitle: "insomnia",
+    href: 'https://insomnia.rest/',
+    tooltype: 'apis'
+  },
+  {
+    title: "DBeaver",
+    description: "It supports all popular SQL databases like MySQL, MariaDB, PostgreSQL, SQLite, Apache Family, and more.",
+    icon: "/dbeaver.svg",
+    imgtitle: "dbeaver",
+    href: 'https://dbeaver.io/',
+    tooltype: 'databases'
+  },
+  {
+    title: "pgAdmin",
+    description: "pgAdmin - PostgreSQL Tools for Windows, Mac, Linux and the Web",
+    icon: "/pgadmin.svg",
+    imgtitle: "pgadmin",
+    href: 'https://www.pgadmin.org/',
+    tooltype: 'databases'
   }
   // add more tools here
 ];
