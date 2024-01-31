@@ -1,12 +1,12 @@
 <div align="center">
-<a href="https://devtools-site.netlify.app/https://svgl.app">
+<a href="https://devtoolskit.netlify.app/">
 <img src="src/assets/img/readme.png">
 </a>
 <p></p>
 </div>
 
 <div align="center">
-    <a href="https://devtools-site.netlify.app/" target="_blank">
+    <a href="https://devtoolskit.netlify.app/" target="_blank">
         Discover
     </a>
     </a>
