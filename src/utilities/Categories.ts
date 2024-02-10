@@ -8,6 +8,9 @@ export const allCategories: Category[] = [
         href: '/', label: 'alls'
     },
     {
+        href: '/categories/animations', label: 'animations'
+    },
+    {
         href: '/categories/apis', label: 'apis'
     },
     {

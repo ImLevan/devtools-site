@@ -327,6 +327,62 @@ export const allTools: Tool[] = [
     imgtitle: "pgadmin",
     href: 'https://www.pgadmin.org/',
     tooltype: 'databases'
+  },
+  {
+    title: "bg.ibelick",
+    description: "Collection of modern, background snippets. Ready-to-use, simply copy and paste into your next project. All snippets crafted with Tailwind CSS and Vanilla CSS for easy integration.",
+    icon: "/bgibelick.ico",
+    imgtitle: "bgibelick",
+    href: 'https://bg.ibelick.com/',
+    tooltype: 'images'
+  },
+  {
+    title: "Shots",
+    description: "Create amazing mockups. Craft beautiful presentations for your social media, website and more!",
+    icon: "/shots-logo.png",
+    imgtitle: "shots",
+    href: 'https://shots.so/',
+    tooltype: 'images'
+  },
+  {
+    title: "Css loaders",
+    description: "This is a library having a collection of different types of CSS loaders, spinners.",
+    icon: "/css-loaders.png",
+    imgtitle: "cssloaders",
+    href: 'https://cssloaders.github.io/',
+    tooltype: 'components-ui'
+  },
+  {
+    title: "CODEPEN",
+    description: "CodePen is a social development environment for front-end designers and developers. Build and deploy a website, show off your work, build test cases to learn and debug, and find inspiration.",
+    icon: "/codepen.svg",
+    imgtitle: "codepen",
+    href: 'https://codepen.io/',
+    tooltype: 'code'
+  },
+  {
+    title: "Flowbite",
+    description: "Start developing with an open-source library of over 600+ UI components, sections, and pages built with the utility classes from Tailwind CSS and designed in Figma.",
+    icon: "/flowbite.svg",
+    imgtitle: "flowbite",
+    href: 'https://flowbite.com/',
+    tooltype: 'components-ui'
+  },
+  {
+    title: "animation.ibelick",
+    description: "A curated collection of animations crafted exclusively with Tailwind CSS. Ready to integrate with a simple copy-paste.",
+    icon: "/anim-ibelick.ico",
+    imgtitle: "anim-ibelick",
+    href: 'https://animation.ibelick.com/',
+    tooltype: 'animations'
+  },
+  {
+    title: "Tailwinds css animations",
+    description: " tailwind css animations the plugin that you need for your Tailwind project!",
+    icon: "/midu-tailwind-anim.svg",
+    imgtitle: "tailwind-anim",
+    href: 'https://tailwindcss-animations.vercel.app/',
+    tooltype: 'animations'
   }
   // add more tools here
 ];
