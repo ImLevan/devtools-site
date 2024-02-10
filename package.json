@@ -1,5 +1,8 @@
 {
-  "name": "devtools-project",
+  "name": "devtoolskit",
+  "author": "@ImLevan",
+  "description": "A site made for developers, with the tools we use every day.",
+  "license": "MIT",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
