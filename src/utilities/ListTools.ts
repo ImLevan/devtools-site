@@ -355,7 +355,7 @@ export const allTools: Tool[] = [
   {
     title: "CODEPEN",
     description: "CodePen is a social development environment for front-end designers and developers. Build and deploy a website, show off your work, build test cases to learn and debug, and find inspiration.",
-    icon: "/codepen.svg",
+    icon: "/codepen.png",
     imgtitle: "codepen",
     href: 'https://codepen.io/',
     tooltype: 'code'
@@ -383,6 +383,14 @@ export const allTools: Tool[] = [
     imgtitle: "tailwind-anim",
     href: 'https://tailwindcss-animations.vercel.app/',
     tooltype: 'animations'
+  },
+  {
+    title: "StackBlitz",
+    description: "Stay in the flow with instant dev experiences. No more hours stashing/pulling/installing locally — just click, and start coding.",
+    icon: "/stackblitz.png",
+    imgtitle: "stackblitz",
+    href: 'https://stackblitz.com/',
+    tooltype: 'code'
   }
   // add more tools here
 ];
