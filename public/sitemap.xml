@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://devtoolskit.netlify.app/</loc>
+  <lastmod>2024-03-08T20:11:09+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://devtoolskit.netlify.app/categories/animations/</loc>
+  <lastmod>2024-03-08T20:11:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://devtoolskit.netlify.app/categories/apis/</loc>
+  <lastmod>2024-03-08T20:11:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://devtoolskit.netlify.app/categories/images/</loc>
+  <lastmod>2024-03-08T20:11:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://devtoolskit.netlify.app/categories/media-files/</loc>
+  <lastmod>2024-03-08T20:11:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://devtoolskit.netlify.app/categories/components-ui/</loc>
+  <lastmod>2024-03-08T20:11:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://devtoolskit.netlify.app/categories/code/</loc>
+  <lastmod>2024-03-08T20:11:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://devtoolskit.netlify.app/categories/colors/</loc>
+  <lastmod>2024-03-08T20:11:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://devtoolskit.netlify.app/categories/icons/</loc>
+  <lastmod>2024-03-08T20:11:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://devtoolskit.netlify.app/categories/deploys/</loc>
+  <lastmod>2024-03-08T20:11:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://devtoolskit.netlify.app/categories/web-monitor/</loc>
+  <lastmod>2024-03-08T20:11:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://devtoolskit.netlify.app/categories/fonts/</loc>
+  <lastmod>2024-03-08T20:11:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://devtoolskit.netlify.app/categories/code-editors/</loc>
+  <lastmod>2024-03-08T20:11:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://devtoolskit.netlify.app/categories/ides/</loc>
+  <lastmod>2024-03-08T20:11:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://devtoolskit.netlify.app/categories/databases/</loc>
+  <lastmod>2024-03-08T20:11:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
