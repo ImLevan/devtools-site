@@ -62,7 +62,7 @@ npm install
 {
     title: "ILoveImg",
     description: "Online tool for image editing, converter, changing formats, image compressor.",
-    icon: "/iloveimg.svg",
+    icon: "/imgs/iloveimg.svg",
     imgtitle: "iloveimg",
     href: 'https://www.iloveimg.com/es',
     tooltype: 'images'
