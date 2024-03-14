@@ -391,6 +391,87 @@ export const allTools: Tool[] = [
     imgtitle: "stackblitz",
     href: 'https://stackblitz.com/',
     tooltype: 'code'
+  },
+  {
+    title: "Font Awesome",
+    description: "Font Awesome gives you scalable vector icons that can instantly be customized — size, color, drop shadow, and anything that can be done with the power of CSS.",
+    icon: "/imgs/fontawesome.svg",
+    imgtitle: "font-awesome",
+    href: 'https://fontawesome.com/v4/icons/',
+    tooltype: 'icons'
+  },
+  {
+    title: "Bootstrap Icons",
+    description: "Free, high quality, open source icon library with over 2,000 icons.",
+    icon: "/imgs/booticon.svg",
+    imgtitle: "bootstrap-icons",
+    href: 'https://icons.getbootstrap.com/',
+    tooltype: 'icons'
+  },
+  {
+    title: "unDraw",
+    description: "Browse to find the images that fit your messaging, automagically customise the color to match your brand and use it as a normal image, embedded code or directly in your design workflow.",
+    icon: "/imgs/undraw.webp",
+    imgtitle: "undraw",
+    href: 'https://undraw.co/illustrations',
+    tooltype: 'images'
+  },
+  {
+    title: "Ouch",
+    description: "Free vector and 3D illustrations that just look professional. Get professional, perfectly matching illustrations. Edit or mix them up effortlessly before downloading.",
+    icon: "/imgs/ouch.svg",
+    imgtitle: "undraw",
+    href: 'https://icons8.com/illustrations',
+    tooltype: 'images'
+  },
+  {
+    title: "Unsplash",
+    description: "The source of images of the internet. With resources from creators around the world.",
+    icon: "/imgs/unsplash.svg",
+    imgtitle: "unsplash",
+    href: 'https://unsplash.com/',
+    tooltype: 'images'
+  },
+  {
+    title: "Pexels",
+    description: "The best free stock photos, royalty-free images and videos shared by creators.",
+    icon: "/imgs/Pexels.svg",
+    imgtitle: "pexels",
+    href: 'https://www.pexels.com/',
+    tooltype: 'images'
+  },
+  {
+    title: "Color Hunt",
+    description: "Color Palettes for Designers and Artists. Discover the newest hand-picked palettes of Color Hunt.",
+    icon: "/imgs/colorhunt.svg",
+    imgtitle: "colorhunt",
+    href: 'https://colorhunt.co/',
+    tooltype: 'colors'
+  },
+  {
+    title: "Canva Colors",
+    description: "Find the perfect color tools and resources for any project. From color palettes to everything you could ever want to learn about color.",
+    icon: "/imgs/canva.svg",
+    imgtitle: "canvacolor",
+    href: 'https://www.canva.com/colors/',
+    tooltype: 'colors'
+  },
+  {
+    title: "Smooth Shadow",
+    description: "Make a smooth shadow, friend. Shadow generator. Make a smooth css shadow",
+    icon: "/imgs/shadowsbrumm.svg",
+    imgtitle: "shadowsbrumm",
+    href: 'https://shadows.brumm.af/',
+    tooltype: 'code'
+  }
+  ,
+  {
+    title: "Layoutit!",
+    description: "Quickly design web layouts, and get HTML and CSS code. Learn CSS Grid visually and build web layouts with our interactive CSS Grid Generator.",
+    icon: "/imgs/layoutit.ico",
+    imgtitle: "layoutit",
+    href: 'https://grid.layoutit.com/',
+    tooltype: 'code'
   }
   // add more tools here
 ];
