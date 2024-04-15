@@ -463,8 +463,7 @@ export const allTools: Tool[] = [
     imgtitle: "shadowsbrumm",
     href: 'https://shadows.brumm.af/',
     tooltype: 'code'
-  }
-  ,
+  },
   {
     title: "Layoutit!",
     description: "Quickly design web layouts, and get HTML and CSS code. Learn CSS Grid visually and build web layouts with our interactive CSS Grid Generator.",
@@ -472,6 +471,14 @@ export const allTools: Tool[] = [
     imgtitle: "layoutit",
     href: 'https://grid.layoutit.com/',
     tooltype: 'code'
+  },
+  {
+    title: "Yesicon",
+    description: "217,418 High-Quality Vector Icons from Top Design Teams. 169 Open-Source, Free Icon sets",
+    icon: "/imgs/yesicon.svg",
+    imgtitle: "yesicon",
+    href: 'https://yesicon.app/',
+    tooltype: 'icons'
   }
   // add more tools here
 ];
