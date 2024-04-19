@@ -479,6 +479,14 @@ export const allTools: Tool[] = [
     imgtitle: "yesicon",
     href: 'https://yesicon.app/',
     tooltype: 'icons'
+  },
+  {
+    title: "Material Tailwind",
+    description: "Material Tailwind is an open-source library that uses the power of Tailwind CSS and React to help you build unique web projects faster and easier.",
+    icon: "/imgs/material-tailwind.png",
+    imgtitle: "material-tailwind",
+    href: 'https://www.material-tailwind.com/',
+    tooltype: 'components-ui'
   }
   // add more tools here
 ];
