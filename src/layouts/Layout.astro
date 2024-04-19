@@ -17,11 +17,15 @@ const { title } = Astro.props;
 		<meta name="viewport" content="width=device-width" />
 		<meta name="author" content="ImLevan" />
 		<meta name="robots" content="index, follow">
+		<link rel="canonical" href="https://devtoolskit.netlify.app/" />
+		<meta name="keywords" content="devtoolskit, library, pages, tools, web, software, development" />
+
 		<!--OG-->
 		<meta property="og:type" content="website" />
 		<meta property="og:title" content="devtoolskit" />
 		<meta property="og:description" content="Library of pages and tools made to help the efficiency and productivity of developers' work." />
 		<meta property="og:url" content="https://devtoolskit.netlify.app/" />
+		<meta property="og:site_name" content="devtoolskit" />
 		<meta property="og:image" content="https://devtoolskit.netlify.app/screenshot.png" />
 		<!--Twitter-->
 		<meta property="twitter:card" content="summary_large_image" />
@@ -30,6 +34,10 @@ const { title } = Astro.props;
 		<meta property="creator" content="ImLevan" />
 		<meta property="twitter:image" content="https://devtoolskit.netlify.app/screenshot.png" />
 		
+		<meta http-equiv="X-Frame-Options" content="DENY">
+		<meta http-equiv="X-Content-Type-Options" content="nosniff">
+		<meta http-equiv="Referrer-Policy" content="same-origin">
+
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<link rel="canonical" href="https://devtoolskit.netlify.app/">	
 
