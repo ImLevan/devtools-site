@@ -487,6 +487,22 @@ export const allTools: Tool[] = [
     imgtitle: "material-tailwind",
     href: 'https://www.material-tailwind.com/',
     tooltype: 'components-ui'
+  },
+  {
+    title: "daisyUI",
+    description: "daisyUI adds component class names to Tailwind CSS so you can make beautiful websites faster than ever.",
+    icon: "/imgs/daisyui-logotype.svg",
+    imgtitle: "daisyui",
+    href: 'https://daisyui.com/',
+    tooltype: 'components-ui'
+  },
+  {
+    title: "monkeytype",
+    description: "Monkeytype is a minimalistic and customizable typing test. It features many test modes, an account system to save your typing speed history, and user-configurable features such as themes, sounds, a smooth caret, and more.",
+    icon: "/imgs/monkeytype.svg",
+    imgtitle: "monkeytype",
+    href: 'https://monkeytype.com/',
+    tooltype: 'code'
   }
   // add more tools here
 ];
