@@ -503,6 +503,38 @@ export const allTools: Tool[] = [
     imgtitle: "monkeytype",
     href: 'https://monkeytype.com/',
     tooltype: 'code'
+  },
+  {
+    title: "Tailwind UI",
+    description: "Beautifully designed, expertly crafted components and templates, built by the makers of Tailwind CSS.",
+    icon: "/imgs/tailwindui.svg",
+    imgtitle: "tailwind-ui",
+    href: 'https://tailwindui.com/',
+    tooltype: 'components-ui'
+  },
+  {
+    title: "NextUI",
+    description: "Beautiful, fast and modern React UI library.",
+    icon: "/imgs/nextui.ico",
+    imgtitle: "nextui",
+    href: 'https://nextui.org/',
+    tooltype: 'components-ui'
+  },
+  {
+    title: "React Awesome Reveal",
+    description: "React components to add reveal animations using the Intersection Observer API and CSS Animations.",
+    icon: "/imgs/r-a-r.svg",
+    imgtitle: "react-awesome-reveal",
+    href: 'https://react-awesome-reveal.morello.dev/',
+    tooltype: 'animations'
+  },
+  {
+    title: "Regex Vis",
+    description: "Regex visualizer & editor, make the regular expression easier.",
+    icon: "/imgs/regexvis.png",
+    imgtitle: "regexvis",
+    href: 'https://regex-vis.com/',
+    tooltype: 'code'
   }
   // add more tools here
 ];
