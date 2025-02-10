@@ -535,6 +535,62 @@ export const allTools: Tool[] = [
     imgtitle: "regexvis",
     href: 'https://regex-vis.com/',
     tooltype: 'code'
+  },
+  {
+    title: "Call to inspiration",
+    description: "Call for inspiration using the purple hat for when you have inspiration blocks or need fresh new ideas. A great tool created by a deisnger for web professionals.",
+    icon: "/imgs/call-to-inspiration.png",
+    imgtitle: "call-to-inspiration",
+    href: 'https://calltoinspiration.com/',
+    tooltype: 'components-ui'
+  },
+  {
+    title: "Claude AI",
+    description: "Claude is a next generation AI assistant built by Anthropic and trained to be safe, accurate, and secure to help you do your best work.",
+    icon: "/imgs/claude-ai.svg",
+    imgtitle: "claude-ai",
+    href: 'https://claude.ai/',
+    tooltype: 'ai'
+  },
+  {
+    title: "Bolt",
+    description: "What do you want to build? Prompt, run, edit & deploy web apps",
+    icon: "/imgs/bolt.svg",
+    imgtitle: "bolt",
+    href: 'https://bolt.new/',
+    tooltype: 'ai'
+  },
+  {
+    title: "Postgres Sandbox",
+    description: "In-browser Postgres sandbox with AI assistance. Create, run, and share your own Postgres database in the browser.",
+    icon: "https://database.build/favicon.ico",
+    imgtitle: "postgres-sandbox",
+    href: 'https://database.build/',
+    tooltype: 'databases'
+  },
+  {
+    title: "Cool Contrast",
+    description: "Check color pairings for contrast, ensuring alignment with WCAG guidelines",
+    icon: "https://coolcontrast.vercel.app/favicon.ico",
+    imgtitle: "coolcontrast",
+    href: 'https://coolcontrast.vercel.app/',
+    tooltype: 'colors'
+  },
+  {
+    title: "Eraser",
+    description: "Create technical diagrams using AI. Deliver consistent, accurate designs faster.",
+    icon: "https://cdn.prod.website-files.com/62d58a323cbc396f06a780aa/62dd392ad0fe361616a22ed3_Favicon%2032x32.png",
+    imgtitle: "eraser",
+    href: 'https://www.eraser.io/',
+    tooltype: 'ai'
+  },
+  {
+    title: "Excalidraw",
+    description: "Excalidraw is a virtual collaborative whiteboard tool that lets you easily sketch diagrams that have a hand-drawn feel to them.",
+    icon: "https://excalidraw.com/favicon-32x32.png",
+    imgtitle: "excalidraw",
+    href: 'https://excalidraw.com/',
+    tooltype: 'ai'
   }
   // add more tools here
 ];
