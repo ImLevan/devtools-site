@@ -591,6 +591,14 @@ export const allTools: Tool[] = [
     imgtitle: "excalidraw",
     href: 'https://excalidraw.com/',
     tooltype: 'ai'
+  },
+  {
+    title: "Agent QA",
+    description: "CLI and MCP server for testing local web and Android apps with AI agents.",
+    icon: "https://raw.githubusercontent.com/vostride/agent-qa/main/packages/dashboard-ui/public/favicon.svg",
+    imgtitle: "agent-qa",
+    href: 'https://github.com/vostride/agent-qa',
+    tooltype: 'ai'
   }
   // add more tools here
 ];
