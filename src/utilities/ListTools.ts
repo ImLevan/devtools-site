@@ -599,6 +599,14 @@ export const allTools: Tool[] = [
     imgtitle: "agent-qa",
     href: 'https://github.com/vostride/agent-qa',
     tooltype: 'ai'
+  },
+  {
+    title: "YYLO",
+    description: "Command-line orchestrator for coding agents, repeatable workflows, and receipt-backed repository changes.",
+    icon: "https://www.yylo.dev/favicon.ico",
+    imgtitle: "yylo",
+    href: 'https://github.com/yylo-dev/yylo',
+    tooltype: 'ai'
   }
   // add more tools here
 ];
